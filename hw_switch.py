@@ -24,6 +24,7 @@ mySw = Switch(com_rel)
 
 def rel():
     mySw.SwitchOn()
+    #on
     print('sw on')
     time.sleep(3)
     mySw.SwitchOff()
@@ -62,5 +63,5 @@ def req():
 
 
 while True:
-    req()
-    #rel()
+    #req()
+    rel()
