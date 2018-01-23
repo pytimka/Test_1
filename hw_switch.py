@@ -6,7 +6,7 @@ def rel():
     while i:
         print('Hello World')
         i=i-1
-        time.sleep(3)
+        time.sleep(10)
     print('end')    
     
 rel()
