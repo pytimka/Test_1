@@ -2,7 +2,7 @@
 import time
 
 def rel():
-    i=10
+    i=6
     while i:
         print('Hello World')
         i=i-1
